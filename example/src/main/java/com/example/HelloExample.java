@@ -1,5 +1,7 @@
 package com.example;
 
-public class HelloExample {
-
+public final class HelloExample {
+    public String getApiKey() {
+        return "DEPLOYMENT_KEY";
+    }
 }

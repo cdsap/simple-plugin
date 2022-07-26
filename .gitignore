@@ -12,6 +12,7 @@
 /plugin/build*
 /plugin/.gradle/
 build*
+/example/generated/java/
 # These are needed if running in IDE without properties set
 /ibderby
 derby.log

@@ -15,8 +15,7 @@ import java.io.File
 abstract class CodeGeneratorTask : DefaultTask() {
 
     @get:OutputDirectory
-    @get:Optional
-     val outputDirectory: DirectoryProperty = project.objects.directoryProperty()
+    abstract val outputDirectory: DirectoryProperty
 
     @get:Input
     abstract val packageName: Property<String>

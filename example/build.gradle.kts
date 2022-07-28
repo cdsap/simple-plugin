@@ -1,5 +1,5 @@
 plugins {
-    id("com.gradle.example.rewritekey")
+    id("com.gradle.example.codegenerator")
 }
 
 tasks.register<com.gradle.example.codegenerator.JavaGeneratorTask>("javaGeneratorTask") {

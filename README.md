@@ -7,7 +7,7 @@ This project implements following simple example features:
 Apply example plugin provided in the repository:
 ```
 plugins {
-    id("com.gradle.example.rewritekey")
+    id("com.gradle.example.codegenerator")
 }
 ```
 ### Java source generation

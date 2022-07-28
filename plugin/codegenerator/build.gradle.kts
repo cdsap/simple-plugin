@@ -5,9 +5,9 @@ plugins {
 
 gradlePlugin {
     plugins {
-        create("RewriteApiKeyPlugin") {
-            id = "com.gradle.example.rewritekey"
-            implementationClass = "com.gradle.example.codegenerator.RewriteApiKeyPlugin"
+        create("CodeGeneratorPlugin") {
+            id = "com.gradle.example.codegenerator"
+            implementationClass = "com.gradle.example.codegenerator.CodeGeneratorPlugin"
             version = "0.1"
             displayName = "CodeGenerator"
         }

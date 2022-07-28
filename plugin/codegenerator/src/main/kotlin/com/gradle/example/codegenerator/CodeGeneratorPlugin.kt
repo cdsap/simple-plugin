@@ -4,7 +4,7 @@ import net.bytebuddy.build.gradle.ByteBuddyTaskExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
-class RewriteApiKeyPlugin : Plugin<Project> {
+class CodeGeneratorPlugin : Plugin<Project> {
 
     override fun apply(target: Project) {
         target.plugins.apply("java")

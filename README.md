@@ -4,7 +4,7 @@ This project implements following simple example features:
 * Bytecode manipulation on existing classes
 
 ### Usage
-Apply example project provided in the repository:
+Apply example plugin provided in the repository:
 ```
 plugins {
     id("com.gradle.example.rewritekey")
@@ -28,7 +28,7 @@ tasks.register<com.gradle.example.codegenerator.JavaGeneratorTask>("javaGenerato
 We need to set:
 * packageName: Name of the package used in the java source files
 * classes: A map that represents a name and the content of the java source file
-* outputDirectory: Where the java source files are going to be generated
+* outputDirectory: Path where the java source files are going to be generated
 
 Additionally, we need to wire the output of the task with the `javaCompile` task, we need to define:
 ```
